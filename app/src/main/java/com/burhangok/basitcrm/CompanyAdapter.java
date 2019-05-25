@@ -52,6 +52,8 @@ public class CompanyAdapter extends BaseAdapter {
         nameTV.setText(firmaAdi);
         Picasso.get().load(companyItem.getcLogo()).into(logoIV);
 
+
+        //row view a tiklama olayi
    rowView.setOnClickListener(new View.OnClickListener() {
        @Override
        public void onClick(View v) {
